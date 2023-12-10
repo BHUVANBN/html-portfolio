@@ -1,0 +1,32 @@
+.home{
+    background-color: 272829;
+    color: azure;
+    text-align: center;
+    padding: 40px;
+    
+}
+.nav_ele{
+    padding: 20px;
+   color: rgb(121, 168, 168);
+   
+}
+.nav{
+    margin: 10px;
+}
+#hom{
+    padding: 30px;
+}
+.d{
+    background-color:2B2B2B;
+    padding: 30px;
+    border-radius: 10px;
+    
+}
+.i{
+    padding: 20px;
+}
+.a{
+    background-color:2B2B2B;
+    padding: 10px;
+    border-radius: 10px;
+}
