@@ -1,73 +1,94 @@
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"/>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="style1.css">
-<script src="javascript.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <div class="home">
-  <div class="nav a">
-    <img src="letter-b.png" alt="" height="20px" width="">
-    <div class="nabar ml-auto">
+  <div class="nav a fixed-top">
+    <img src="letterB.png" alt="" height="20px" width="">
+      <div class="nabar ml-auto">
         <a href="#hom" class="nav_ele">Home</a>
-        <a href="#abou" class="nav_ele" >about</a>
+        <a href="#abou" class="nav_ele" >Projects</a>
         <a href="#cont" class="nav_ele" >connect</a>
     </div>
   </div>
-  <div class="container" >
-    <div class="row">
-        <div class="col-xs-4 col-lg-4">
-            <h1>BHUVAN </h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, praesentium veritatis numquam error in, ab, illum facilis animi temporibus nihil iste aliquid sint harum minima at molestias quidem ipsum quod.</p>
+  <div class="container" id="hom">
+    <div class="row b">
+        <div class="p1 col-xs-4 col-lg-4">
+            <h1 class="bhu" ><b>B H U V A N</b> </h1>
+            <p>Hi, I am a passionate software engineering student with a focus on <b style="color: rgb(151, 244, 244);">full-stack development, AI/ML and Web3</b>.</p>
         </div>
         <div class="col-xs-4 col-lg-4 i">
             <img src="profile-pic (39).png" alt="" height="200px">
-
+            
+            
         </div>
-        <div class="col-xs-4 col-lg-4">
-            <P>INTRODUCTION</P>
-            <H3>Full Stack developer</H3>
+        <div class="p2 col-xs-4 col-lg-4">
+            <p>
+                From a young age, I’ve always been curious about how things work. I started by exploring <b style="color: rgb(151, 244, 244);">drawing and painting</b>, which led me to study human anatomy to improve my art. As I got older, my love for <b style="color: rgb(151, 244, 244);">gaming</b> made me wonder how games are built, sparking my interest in <b style="color: rgb(151, 244, 244);">programming</b>.
+                Since then, my curiosity has taken me from coding simple programs and designing in <b style="color: rgb(151, 244, 244);">Figma</b> to diving into advanced technologies like <b style="color: rgb(151, 244, 244);">AI, machine learning, and blockchain.</b> My journey is all about <b style="color: rgb(151, 244, 244);">learning, creating, and pushing the limits of what's possible.
+                </p></b>
+            <!-- <H3>Full Stack developer</H3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, magni praesentium vitae inventore vero ipsum facere rerum voluptates porro cumque alias illum! Debitis maxime hic deserunt dolor alias minus ea?</p>
-       
-        
+         -->
         </div>
     </div>
   </div>
   <div id="abou">
     <hr color="white">
-    <h1>What I Am good at</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A expedita temporibus eius voluptatem quam mollitia debitis nobis tempora blanditiis iure laboriosam, magni aliquam, quibusdam laborum. Necessitatibus atque ullam fuga cumque.</p>
+    <h2><b>P R O J E C T S</b></h2>
     <div class="container">
-        <div class="row">
+        <div class="row r">
             <div class="col-sm-6 col-md-6 col-lg-3 d ">
-                <img src="ux.png" alt="" height="80px" >
-                <h3></h3>
-                <p>UI/UX</p>
+                <a class="t" href="https://github.com/BHUVANBN/DecentralisedFileStorageSystem" style="padding: 10px; color: aliceblue; text-align: justify;"><h3>Decentralised FileStorage System</h3></a>
+                <p style="text-align: left; color: rgb(151, 244, 244);" draggable="true">JavaScript, IPFS/Filecoin</p>
+                <p style="text-align: left;">
+                    Developed an application that securely uploads files to decentralized storage systems like 
+                    IPFS or Filecoin. It stores the file’s hash on a blockchain, ensuring immutability and secure access control.
+                </p>
             </div>
             <div class="col-sm-6 col-md-6 col-lg-3 d ">
-                <img src="programming.png" alt="" height="80px">
-                <h3></h3>
-                <p> Web Development</p>
+                <a class="t" href="https://github.com/BHUVANBN/CurrencyConverter" style="padding: 10px; color: aliceblue; text-align: justify;"><h3>Currency Converter</h3></a>
+                <p style="text-align: left; color: rgb(151, 244, 244);" draggable="true">Tech Stack: JavaScript, HTML, CSS, ExchangeRate-API</p>
+                <p style="text-align: left;">
+                    Developed a web-based currency converter that allows users to select currencies and convert amounts using real-time exchange rates from the ExchangeRate-API. It supports over 160 currencies and provides a dynamic, user-friendly interface for easy interaction and up-to-date conversions.                </p>
             </div>
-            <div class="col-sm-6 col-md-6  col-lg-3 d  ">
-                <img src="seo.png" alt="" height="80px">
-                <h3></h3>
-                <p>Web Searching</p>
+            <div class="col-sm-6 col-md-6 col-lg-3 d ">
+                <a class="t" href="https://github.com/BHUVANBN/GoogleGenAI" style="padding: 10px; color: aliceblue; text-align: justify;"><h3>Google GenAI</h3></a>
+                <p style="text-align: left; color: rgb(151, 244, 244);" draggable="true">Python, Streamlit/p>
+                <p style="text-align: left;">
+                    Integrated Google Generative AI capabilities into a Streamlit-powered web app, showcasing the use of AI-based functions with a simple user interface.
+                </p>
             </div>
-            <div class="col-sm-6 col-md-6  col-lg-3 d ">
-                <img src="social-media.png" alt="" height="80px">
-                <h3></h3>
-                <p>Marketing</p>
+            <div class="col-sm-6 col-md-6 col-lg-3 d ">
+                <a class="t" href="https://github.com/BHUVANBN/dbms_project" style="padding: 10px; color: aliceblue; text-align: justify;"><h3>DBMS Project</h3></a>
+                <p style="text-align: left; color: rgb(151, 244, 244);" draggable="true">JavaScript, Node.js, MySQL</p>
+                <p style="text-align: left;">
+                    Developed a database management system to capture and store user information in a MySQL database. Implemented using Node.js to handle backend logic and manage interactions with the database, ensuring secure data storage and efficient retrieval of user data.
+                </p>
             </div>
         </div>
 
     </div>
     <div id="cont">
         <hr color="white">
-        <p>CONTACT ME</p>
-        <H1>Ways to Contact me</H1>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis voluptate dolor nam natus, ipsa voluptates facere atque temporibus iste eum! Perspiciatis maiores commodi adipisci eaque blanditiis explicabo id in sequi.</p>
-        <a href="https://www.linkedin.com/in/bhuvanbn/" style="padding: 10px;"><img src="linkedin.png" alt="" height="30px"  ></a>
-        <a href="https://twitter.com/bhuvanbn01" style="padding: 10px;"><img src="twitter.png" alt=""  height="30px" ></a>
+        
+        <a class="l" href="https://www.linkedin.com/in/bhuvanbn/" style="padding: 10px;"><i class="fa-brands fa-linkedin" style="color: rgba(255,255,255,0.5);"></i></a>
+        <a class="l" href="https://twitter.com/bhuvanbn01" style="padding: 10px;"><i class="fa-brands fa-x-twitter"style="color: rgba(255,255,255,0.5);"></i></a>
+        <!-- <a class="l" href="bhuvanbn01@gmail.com" style="padding: 10px;"><i class="fa-regular fa-envelope" style="color: rgba(255,255,255,0.5);"></i></a> -->
+        <a class="l" href="https://github.com/BHUVANBN" style="padding: 10px;"><i class="fa-brands fa-github" style="color: rgba(255,255,255,0.5);"></i></a>
+
         <hr color="white">
     </div>
     
-    <p><img src="copyright.png" alt="" height="20px" >   Copyright - All rights reserved</p>
+    <!-- <p><img src="copyright.png" alt="" height="20px" >   Copyright - All rights reserved</p> -->
 </div>
+<script>
+    const light = document.createElement('div');
+    light.classList.add('light');
+    document.body.appendChild(light);
+  
+    document.addEventListener('mousemove', (e) => {
+      light.style.left = `${e.clientX}px`;
+      light.style.top = `${e.clientY}px`;
+    });
+  </script>
